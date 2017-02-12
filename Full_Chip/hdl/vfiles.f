@@ -1,0 +1,9 @@
+pdp8_pkg.sv
+clkgen_driver.sv
+instr_decode.sv
+instr_exec.sv
+memory_pdp.sv
+ifd_checker.sv
+exe_checker.sv
+chip_sb.sv
+top_level_tb.sv

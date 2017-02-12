@@ -1,0 +1,402 @@
+Coverage Report by file with details
+
+=================================================================================
+=== File: instr_decode.sv
+=================================================================================
+Statement Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           62        61         1      98.3
+
+================================Statement Details================================
+
+Statement Coverage for file instr_decode.sv --
+
+    67              1                     500071     
+    68              1                        271     
+    69              1                     499800     
+    73              1                     269605     
+    81              1                         21     
+    84              1                         21     
+    85              1                         21     
+    86              1                         21     
+    87              1                         21     
+    88              1                         21     
+    90              1                         21     
+    92              1                         64     
+    102             1                         21     
+    104             1                         21     
+    114             1                      53246     
+    115             1                      53246     
+    116             1                      53246     
+    118             1                      53246     
+    127             1                      43250     
+    128             1                      43250     
+    130             1                      43250     
+    144             1                       2593     
+    145             1                      69004     
+    146             1                       2492     
+    147             1                       2528     
+    148             1                       2352     
+    149             1                       2561     
+    150             1                    ***0***     
+    154             1                          8     
+    155             1                         10     
+    156             1                          4     
+    157             1                          2     
+    158             1                          6     
+    159             1                          4     
+    160             1                          4     
+    161             1                          6     
+    162             1                         10     
+    163             1                          6     
+    164             1                          4     
+    165             1                          6     
+    166             1                          6     
+    167             1                         12     
+    168             1                          2     
+    169             1                         10     
+    170             1                          4     
+    171             1                          6     
+    172             1                          4     
+    173             1                          8     
+    174             1                          8     
+    175             1                          6     
+    177             1                       2409     
+    182             1                       2414     
+    183             1                       2414     
+    187             1                      86489     
+    203             1                      43258     
+    205             1                      43238     
+    207             1                          9     
+    209             1                      43229     
+    217             1                         18     
+    218             1                         18     
+    220             1                          9     
+    222             1                          9     
+Branch Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                        51        49         2      96.0
+
+================================Branch Details================================
+
+Branch Coverage for file instr_decode.sv --
+
+------------------------------------IF Branch------------------------------------
+    68                                    500071     Count coming in to IF
+    68              1                        271     
+    69              1                     499800     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------CASE Branch------------------------------------
+    74                                    269605     Count coming in to CASE
+    80              1                         85     
+    101             1                         21     
+    113             1                      53246     
+    126             1                      43250     
+    138             1                      86489     
+    200             1                      86496     
+    216             1                         18     
+                                         ***0***     All False Count
+Branch totals: 7 hits of 8 branches = 87.5%
+
+------------------------------------IF Branch------------------------------------
+    80                                        85     Count coming in to IF
+    80              2                         21     
+    91              1                         64     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    141                                    86489     Count coming in to IF
+    141             1                      81530     
+    152             1                       2545     
+    181             1                       2414     
+Branch totals: 3 hits of 3 branches = 100.0%
+
+------------------------------------CASE Branch------------------------------------
+    142                                    81530     Count coming in to CASE
+    144             1                       2593     
+    145             1                      69004     
+    146             1                       2492     
+    147             1                       2528     
+    148             1                       2352     
+    149             1                       2561     
+    150             1                    ***0***     
+Branch totals: 6 hits of 7 branches = 85.7%
+
+------------------------------------CASE Branch------------------------------------
+    153                                     2545     Count coming in to CASE
+    154             1                          8     
+    155             1                         10     
+    156             1                          4     
+    157             1                          2     
+    158             1                          6     
+    159             1                          4     
+    160             1                          4     
+    161             1                          6     
+    162             1                         10     
+    163             1                          6     
+    164             1                          4     
+    165             1                          6     
+    166             1                          6     
+    167             1                         12     
+    168             1                          2     
+    169             1                         10     
+    170             1                          4     
+    171             1                          6     
+    172             1                          4     
+    173             1                          8     
+    174             1                          8     
+    175             1                          6     
+    176             1                       2409     
+Branch totals: 23 hits of 23 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    202                                    86496     Count coming in to IF
+    202             1                      43258     
+    204             1                      43238     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    206                                    43238     Count coming in to IF
+    206             1                          9     
+    208             1                      43229     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    219                                       18     Count coming in to IF
+    219             1                          9     
+    221             1                          9     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+
+Condition Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Condition Terms              0         0         0     100.0
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms             0         0         0     100.0
+FSM Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FSMs                                                        90.6
+        States                       7         7         0     100.0
+        Transitions                 16        13         3      81.2
+
+================================FSM Details================================
+
+FSM Coverage for file instr_decode.sv --
+
+FSM_ID: current_state
+    Current State Object : current_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  80                IDLE                   0
+ 101               READY                   1
+ 113            SEND_REQ                   2
+ 126           DATA_RCVD                   3
+ 138            INST_DEC                   4
+ 200               STALL                   5
+ 216                DONE                   6
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                 271
+                   READY                  21
+                SEND_REQ               43250
+               DATA_RCVD               43250
+                INST_DEC               43249
+                   STALL              259438
+                    DONE              110592
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  92                   0                 250          IDLE -> IDLE        
+  90                   1                  21          IDLE -> READY       
+ 104                   2                  21          READY -> SEND_REQ   
+ 118                   4               43250          SEND_REQ -> DATA_RCVD
+ 130                   6               43249          DATA_RCVD -> INST_DEC
+ 187                   8               43248          INST_DEC -> STALL   
+  68                   9                   1          INST_DEC -> IDLE    
+ 209                  10               43229          STALL -> SEND_REQ   
+ 207                  11                   9          STALL -> DONE       
+ 203                  12              216190          STALL -> STALL      
+  68                  13                  10          STALL -> IDLE       
+ 222                  14              110583          DONE -> DONE        
+ 220                  15                   9          DONE -> IDLE        
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+  68                   3          READY -> IDLE       
+  68                   5          SEND_REQ -> IDLE    
+  68                   7          DATA_RCVD -> IDLE   
+
+
+    Summary                     Active      Hits    Misses % Covered
+    -------                     ------      ----    ------ ---------
+        States                       7         7         0     100.0
+        Transitions                 16        13         3      81.2
+
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /top_level_tb/CHEK/opcodes                       100.0%        100    Covered              
+    covered/total bins:                                    29         29                      
+    missing/total bins:                                     0         29                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint opcodes::opcodes                        100.0%        100    Covered              
+        covered/total bins:                                 7          7                      
+        missing/total bins:                                 0          7                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint opcodes::NOP                            100.0%        100    Covered              
+        covered/total bins:                                22         22                      
+        missing/total bins:                                 0         22                      
+        % Hit:                                         100.0%        100                      
+ Covergroup instance \/top_level_tb/CHEK/opcodes_inst  
+                                                       100.0%        100    Covered              
+    covered/total bins:                                    29         29                      
+    missing/total bins:                                     0         29                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint opcodes                                 100.0%        100    Covered              
+        covered/total bins:                                 7          7                      
+        missing/total bins:                                 0          7                      
+        % Hit:                                         100.0%        100                      
+        ignore_bin ignore_opcode                         1272               Occurred             
+        bin auto[0]                                      1298          1    Covered              
+        bin auto[1]                                     34506          1    Covered              
+        bin auto[2]                                      1246          1    Covered              
+        bin auto[3]                                      1264          1    Covered              
+        bin auto[4]                                      1176          1    Covered              
+        bin auto[5]                                      1281          1    Covered              
+        bin auto[6]                                      1207          1    Covered              
+    Coverpoint NOP                                     100.0%        100    Covered              
+        covered/total bins:                                22         22                      
+        missing/total bins:                                 0         22                      
+        % Hit:                                         100.0%        100                      
+        bin NOP                                             4          1    Covered              
+        bin HLT                                             3          1    Covered              
+        bin CLL                                             3          1    Covered              
+        bin CLA1                                            2          1    Covered              
+        bin CLA_CLL                                         3          1    Covered              
+        bin CLA2                                            3          1    Covered              
+        bin IAC                                             5          1    Covered              
+        bin RAL                                             2          1    Covered              
+        bin RTL                                             1          1    Covered              
+        bin RAR                                             3          1    Covered              
+        bin RTR                                             2          1    Covered              
+        bin CML                                             2          1    Covered              
+        bin CMA                                             3          1    Covered              
+        bin CIA                                             5          1    Covered              
+        bin OSR                                             6          1    Covered              
+        bin SKP                                             1          1    Covered              
+        bin SNL                                             5          1    Covered              
+        bin SZL                                             2          1    Covered              
+        bin SZA                                             3          1    Covered              
+        bin SNA                                             2          1    Covered              
+        bin SMA                                             4          1    Covered              
+        bin SPA                                             4          1    Covered              
+        default bin other[0]                            43182               Occurred             
+ TYPE /top_level_tb/CHEK/corner_cases                  100.0%        100    Covered              
+    covered/total bins:                                     4          4                      
+    missing/total bins:                                     0          4                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint corner_cases::corner_case1              100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint corner_cases::corner_case2              100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+ Covergroup instance \/top_level_tb/CHEK/c             100.0%        100    Covered              
+    covered/total bins:                                     4          4                      
+    missing/total bins:                                     0          4                      
+    % Hit:                                             100.0%        100                      
+    Coverpoint corner_case1                            100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin auto[0]                                    499989          1    Covered              
+        bin auto[1]                                        60          1    Covered              
+    Coverpoint corner_case2                            100.0%        100    Covered              
+        covered/total bins:                                 2          2                      
+        missing/total bins:                                 0          2                      
+        % Hit:                                         100.0%        100                      
+        bin auto[0]                                    168337          1    Covered              
+        bin auto[1]                                    331713          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.0%  COVERGROUP TYPES: 2
+
+DIRECTIVE COVERAGE:
+---------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Count Status    
+                                         Unit   UnitType                                      
+---------------------------------------------------------------------------------------------
+/top_level_tb/CHEK/C1                    ifd_checker Verilog  SVA  ifd_checker.sv(93)
+                                                                                 21 Covered   
+/top_level_tb/CHEK/C2                    ifd_checker Verilog  SVA  ifd_checker.sv(112)
+                                                                                 21 Covered   
+/top_level_tb/CHEK/C3                    ifd_checker Verilog  SVA  ifd_checker.sv(130)
+                                                                              259528 Covered   
+/top_level_tb/CHEK/C5                    ifd_checker Verilog  SVA  ifd_checker.sv(186)
+                                                                              43240 Covered   
+/top_level_tb/CHEK/C6                    ifd_checker Verilog  SVA  ifd_checker.sv(204)
+                                                                                 21 Covered   
+/top_level_tb/CHEK/C7                    ifd_checker Verilog  SVA  ifd_checker.sv(222)
+                                                                              43249 Covered   
+/top_level_tb/CHEK/C8                    ifd_checker Verilog  SVA  ifd_checker.sv(240)
+                                                                              43249 Covered   
+/top_level_tb/CHEK/C9                    ifd_checker Verilog  SVA  ifd_checker.sv(258)
+                                                                                 21 Covered   
+/top_level_tb/CHEK/C10                   ifd_checker Verilog  SVA  ifd_checker.sv(277)
+                                                                                 18 Covered   
+/top_level_tb/CHEK/C11                   ifd_checker Verilog  SVA  ifd_checker.sv(294)
+                                                                              43249 Covered   
+/top_level_tb/CHEK/C12                   ifd_checker Verilog  SVA  ifd_checker.sv(310)
+                                                                              43258 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 100.0%  COVERS: 11
+
+ASSERTION RESULTS:
+-------------------------------------------------------
+Name                 File(Line)           Failure Pass 
+                                          Count   Count 
+-------------------------------------------------------
+/top_level_tb/CHEK/assert__R12
+                     ifd_checker.sv(306)        0     1
+/top_level_tb/CHEK/assert__R11
+                     ifd_checker.sv(290)        0     1
+/top_level_tb/CHEK/assert__R10
+                     ifd_checker.sv(273)        0     1
+/top_level_tb/CHEK/assert__R9
+                     ifd_checker.sv(254)        0     1
+/top_level_tb/CHEK/assert__R8
+                     ifd_checker.sv(236)        0     1
+/top_level_tb/CHEK/assert__R7
+                     ifd_checker.sv(218)        0     1
+/top_level_tb/CHEK/assert__R6
+                     ifd_checker.sv(200)        0     1
+/top_level_tb/CHEK/assert__R5
+                     ifd_checker.sv(182)       10     1
+/top_level_tb/CHEK/assert__R3
+                     ifd_checker.sv(126)       10     1
+/top_level_tb/CHEK/assert__R2
+                     ifd_checker.sv(108)        0     1
+/top_level_tb/CHEK/assert__R1
+                     ifd_checker.sv(88)         0     1
+/top_level_tb/CHEK/#ublk#159673234#147/immed__148
+                     ifd_checker.sv(148)       44     1
+
+Total Coverage By File (code coverage only, filtered view): 95.0%
+

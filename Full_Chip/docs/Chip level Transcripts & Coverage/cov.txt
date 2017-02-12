@@ -1,0 +1,1090 @@
+Coverage Report by file with details
+
+=================================================================================
+=== File: instr_decode.sv
+=================================================================================
+Statement Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           62        51        11      82.2
+
+================================Statement Details================================
+
+Statement Coverage for file instr_decode.sv --
+
+    70              1                     500051     
+    71              1                         51     
+    72              1                     500000     
+    76              1                        285     
+    84              1                          2     
+    87              1                          2     
+    88              1                          2     
+    89              1                          2     
+    90              1                          2     
+    91              1                          2     
+    93              1                          2     
+    95              1                          2     
+    105             1                          2     
+    107             1                          2     
+    117             1                        120     
+    118             1                        120     
+    119             1                        120     
+    121             1                        120     
+    130             1                         31     
+    131             1                         31     
+    133             1                         31     
+    147             1                          2     
+    148             1                         10     
+    149             1                          2     
+    150             1                          4     
+    151             1                          2     
+    152             1                          4     
+    153             1                    ***0***     
+    157             1                    ***0***     
+    158             1                    ***0***     
+    159             1                    ***0***     
+    160             1                    ***0***     
+    161             1                    ***0***     
+    162             1                    ***0***     
+    163             1                          2     
+    164             1                          2     
+    165             1                          2     
+    166             1                          2     
+    167             1                          2     
+    168             1                          6     
+    169             1                          4     
+    170             1                          2     
+    171             1                          2     
+    172             1                          2     
+    173             1                          2     
+    174             1                          2     
+    175             1                          2     
+    176             1                          2     
+    177             1                          2     
+    178             1                          2     
+    179             1                    ***0***     
+    182             1                    ***0***     
+    183             1                    ***0***     
+    186             1                         62     
+    202             1                         32     
+    204             1                         31     
+    206             1                          1     
+    208             1                         30     
+    216             1                          3     
+    217             1                          3     
+    219             1                    ***0***     
+    221             1                          3     
+Branch Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                        51        40        11      78.4
+
+================================Branch Details================================
+
+Branch Coverage for file instr_decode.sv --
+
+------------------------------------IF Branch------------------------------------
+    71                                    500051     Count coming in to IF
+    71              1                         51     
+    72              1                     500000     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------CASE Branch------------------------------------
+    77                                       285     Count coming in to CASE
+    83              1                          4     
+    104             1                          2     
+    116             1                        120     
+    129             1                         31     
+    141             1                         62     
+    199             1                         63     
+    215             1                          3     
+                                         ***0***     All False Count
+Branch totals: 7 hits of 8 branches = 87.5%
+
+------------------------------------IF Branch------------------------------------
+    83                                         4     Count coming in to IF
+    83              2                          2     
+    94              1                          2     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    144                                       62     Count coming in to IF
+    144             1                         24     
+    155             1                         38     
+    181             1                    ***0***     
+Branch totals: 2 hits of 3 branches = 66.6%
+
+------------------------------------CASE Branch------------------------------------
+    145                                       24     Count coming in to CASE
+    147             1                          2     
+    148             1                         10     
+    149             1                          2     
+    150             1                          4     
+    151             1                          2     
+    152             1                          4     
+    153             1                    ***0***     
+Branch totals: 6 hits of 7 branches = 85.7%
+
+------------------------------------CASE Branch------------------------------------
+    156                                       38     Count coming in to CASE
+    157             1                    ***0***     
+    158             1                    ***0***     
+    159             1                    ***0***     
+    160             1                    ***0***     
+    161             1                    ***0***     
+    162             1                    ***0***     
+    163             1                          2     
+    164             1                          2     
+    165             1                          2     
+    166             1                          2     
+    167             1                          2     
+    168             1                          6     
+    169             1                          4     
+    170             1                          2     
+    171             1                          2     
+    172             1                          2     
+    173             1                          2     
+    174             1                          2     
+    175             1                          2     
+    176             1                          2     
+    177             1                          2     
+    178             1                          2     
+    179             1                    ***0***     
+Branch totals: 16 hits of 23 branches = 69.5%
+
+------------------------------------IF Branch------------------------------------
+    201                                       63     Count coming in to IF
+    201             1                         32     
+    203             1                         31     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    205                                       31     Count coming in to IF
+    205             1                          1     
+    207             1                         30     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    218                                        3     Count coming in to IF
+    218             1                    ***0***     
+    220             1                          3     
+Branch totals: 1 hit of 2 branches = 50.0%
+
+
+Condition Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Condition Terms              0         0         0     100.0
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms             0         0         0     100.0
+FSM Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FSMs                                                        81.2
+        States                       7         7         0     100.0
+        Transitions                 16        10         6      62.5
+
+================================FSM Details================================
+
+FSM Coverage for file instr_decode.sv --
+
+FSM_ID: current_state
+    Current State Object : current_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+  83                IDLE                   0
+ 104               READY                   1
+ 116            SEND_REQ                   2
+ 129           DATA_RCVD                   3
+ 141            INST_DEC                   4
+ 199               STALL                   5
+ 215                DONE                   6
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                  51
+                   READY                   1
+                SEND_REQ                  31
+               DATA_RCVD                  31
+                INST_DEC                  31
+                   STALL                 111
+                    DONE              499795
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+  95                   0                  50          IDLE -> IDLE        
+  93                   1                   1          IDLE -> READY       
+ 107                   2                   1          READY -> SEND_REQ   
+ 121                   4                  31          SEND_REQ -> DATA_RCVD
+ 133                   6                  31          DATA_RCVD -> INST_DEC
+ 186                   8                  31          INST_DEC -> STALL   
+ 208                  10                  30          STALL -> SEND_REQ   
+ 206                  11                   1          STALL -> DONE       
+ 202                  12                  80          STALL -> STALL      
+ 221                  14              499794          DONE -> DONE        
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+  71                   3          READY -> IDLE       
+  71                   5          SEND_REQ -> IDLE    
+  71                   7          DATA_RCVD -> IDLE   
+  71                   9          INST_DEC -> IDLE    
+  71                  13          STALL -> IDLE       
+ 219                  15          DONE -> IDLE        
+
+
+    Summary                     Active      Hits    Misses % Covered
+    -------                     ------      ----    ------ ---------
+        States                       7         7         0     100.0
+        Transitions                 16        10         6      62.5
+
+=================================================================================
+=== File: instr_exec.sv
+=================================================================================
+Statement Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           66        64         2      96.9
+
+================================Statement Details================================
+
+Statement Coverage for file instr_exec.sv --
+
+    96              1                         26     
+    103             1                         40     
+    127             1                     500051     
+    128             1                         51     
+    129             1                     500000     
+    132             1                        210     
+    141             1                          2     
+    142             1                          2     
+    143             1                          2     
+    155             1                         62     
+    156             1                         62     
+    158             1                         32     
+    159             1                         32     
+    160             1                         32     
+    161             1                         32     
+    172             1                         31     
+    175             1                          3     
+    177             1                          7     
+    179             1                          2     
+    181             1                          1     
+    183             1                          2     
+    185             1                         16     
+    193             1                          2     
+    194             1                          2     
+    202             1                          3     
+    203             1                          3     
+    204             1                          3     
+    214             1                         10     
+    215             1                         10     
+    216             1                         10     
+    225             1                          7     
+    226             1                          7     
+    227             1                          7     
+    228             1                          7     
+    231             1                          5     
+    233             1                          1     
+    235             1                          1     
+    244             1                          5     
+    245             1                    ***0***     
+    246             1                          5     
+    255             1                          1     
+    256             1                          1     
+    267             1                          1     
+    268             1                          1     
+    269             1                          1     
+    270             1                          1     
+    271             1                          1     
+    279             1                    ***0***     
+    280             1                          1     
+    290             1                          2     
+    291             1                          2     
+    292             1                          2     
+    293             1                          2     
+    303             1                          1     
+    304             1                          1     
+    305             1                          1     
+    306             1                          1     
+    314             1                          1     
+    315             1                          1     
+    323             1                          2     
+    324             1                          2     
+    331             1                         16     
+    341             1                         31     
+    342             1                         31     
+    343             1                         31     
+    344             1                         31     
+Branch Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Branches                        36        32         4      88.8
+
+================================Branch Details================================
+
+Branch Coverage for file instr_exec.sv --
+
+------------------------------------IF Branch------------------------------------
+    128                                   500051     Count coming in to IF
+    128             1                         51     
+    129             1                     500000     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------CASE Branch------------------------------------
+    133                                      210     Count coming in to CASE
+    139             1                          2     
+    151             1                         94     
+    169             1                         31     
+    191             1                          2     
+    200             1                          3     
+    212             1                         10     
+    223             1                          7     
+    242             1                          5     
+    253             1                          1     
+    265             1                          1     
+    277             1                          1     
+    288             1                          2     
+    301             1                          1     
+    312             1                          1     
+    321             1                          2     
+    329             1                         16     
+    339             1                         31     
+                                         ***0***     All False Count
+Branch totals: 17 hits of 18 branches = 94.4%
+
+------------------------------------IF Branch------------------------------------
+    152                                       94     Count coming in to IF
+    152             1                         62     
+    157             1                         32     
+Branch totals: 2 hits of 2 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    174                                       31     Count coming in to IF
+    174             1                          3     
+    176             1                          7     
+    178             1                          2     
+    180             1                          1     
+    182             1                          2     
+    184             1                         16     
+Branch totals: 6 hits of 6 branches = 100.0%
+
+------------------------------------IF Branch------------------------------------
+    230                                        7     Count coming in to IF
+    230             1                          5     
+    232             1                          1     
+    234             1                          1     
+                                         ***0***     All False Count
+Branch totals: 3 hits of 4 branches = 75.0%
+
+------------------------------------IF Branch------------------------------------
+    245                                        5     Count coming in to IF
+    245             1                    ***0***     
+                                               5     All False Count
+Branch totals: 1 hit of 2 branches = 50.0%
+
+------------------------------------IF Branch------------------------------------
+    279                                        1     Count coming in to IF
+    279             1                    ***0***     
+                                               1     All False Count
+Branch totals: 1 hit of 2 branches = 50.0%
+
+
+Condition Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Condition Terms              5         5         0     100.0
+
+================================Condition Details================================
+
+Condition Coverage for file instr_exec.sv --
+
+----------------Focused Condition View-------------------
+Line       152 Item    1  (new_mem_opcode || new_op7_opcode)
+Condition totals: 2 of 2 input terms covered = 100.0%
+
+----------------Focused Condition View-------------------
+Line       176 Item    1  ((pdp_mem_opcode.TAD || pdp_mem_opcode.AND) || pdp_mem_opcode.ISZ)
+Condition totals: 3 of 3 input terms covered = 100.0%
+
+
+Expression Coverage:
+    Enabled Coverage            Active   Covered    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FEC Expression Terms            28        22         6      78.5
+
+================================Expression Details================================
+
+Expression Coverage for file instr_exec.sv --
+
+----------------Focused Expression View-----------------
+Line       96 Item    1  (((((pdp_mem_opcode.AND || pdp_mem_opcode.TAD) || pdp_mem_opcode.ISZ) || pdp_mem_opcode.DCA) || pdp_mem_opcode.JMS) || pdp_mem_opcode.JMP)
+Expression totals: 6 of 6 input terms covered = 100.0%
+
+----------------Focused Expression View-----------------
+Line       103 Item    1  (((((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA) || pdp_op7_opcode.SMA) || pdp_op7_opcode.SPA) || pdp_op7_opcode.CLA2)
+Expression totals: 16 of 22 input terms covered = 72.7%
+
+              Input Term   Covered  Reason for no coverage   Hint
+             -----------  --------  -----------------------  --------------
+      pdp_op7_opcode.NOP         N  '_1' not hit             Hit '_1'
+      pdp_op7_opcode.IAC         N  '_1' not hit             Hit '_1'
+      pdp_op7_opcode.RAL         N  '_1' not hit             Hit '_1'
+      pdp_op7_opcode.RTL         N  '_1' not hit             Hit '_1'
+      pdp_op7_opcode.RAR         N  '_1' not hit             Hit '_1'
+      pdp_op7_opcode.RTR         N  '_1' not hit             Hit '_1'
+      pdp_op7_opcode.CML         Y
+      pdp_op7_opcode.CMA         Y
+      pdp_op7_opcode.CIA         Y
+      pdp_op7_opcode.CLL         Y
+     pdp_op7_opcode.CLA1         Y
+  pdp_op7_opcode.CLA_CLL         Y
+      pdp_op7_opcode.HLT         Y
+      pdp_op7_opcode.OSR         Y
+      pdp_op7_opcode.SKP         Y
+      pdp_op7_opcode.SNL         Y
+      pdp_op7_opcode.SZL         Y
+      pdp_op7_opcode.SZA         Y
+      pdp_op7_opcode.SNA         Y
+      pdp_op7_opcode.SMA         Y
+      pdp_op7_opcode.SPA         Y
+     pdp_op7_opcode.CLA2         Y
+
+     Rows:       Hits  FEC Target                Non-masking condition(s)      
+ ---------  ---------  --------------------      -------------------------     
+  Row   1:          1  pdp_op7_opcode.NOP_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~pdp_op7_opcode.CML && ~pdp_op7_opcode.RTR && ~pdp_op7_opcode.RAR && ~pdp_op7_opcode.RTL && ~pdp_op7_opcode.RAL && ~pdp_op7_opcode.IAC)
+  Row   2:    ***0***  pdp_op7_opcode.NOP_1      -                             
+  Row   3:          1  pdp_op7_opcode.IAC_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~pdp_op7_opcode.CML && ~pdp_op7_opcode.RTR && ~pdp_op7_opcode.RAR && ~pdp_op7_opcode.RTL && ~pdp_op7_opcode.RAL && ~pdp_op7_opcode.NOP)
+  Row   4:    ***0***  pdp_op7_opcode.IAC_1      ~pdp_op7_opcode.NOP           
+  Row   5:          1  pdp_op7_opcode.RAL_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~pdp_op7_opcode.CML && ~pdp_op7_opcode.RTR && ~pdp_op7_opcode.RAR && ~pdp_op7_opcode.RTL && ~(pdp_op7_opcode.NOP || pdp_op7_opcode.IAC))
+  Row   6:    ***0***  pdp_op7_opcode.RAL_1      ~(pdp_op7_opcode.NOP || pdp_op7_opcode.IAC)
+  Row   7:          1  pdp_op7_opcode.RTL_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~pdp_op7_opcode.CML && ~pdp_op7_opcode.RTR && ~pdp_op7_opcode.RAR && ~((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL))
+  Row   8:    ***0***  pdp_op7_opcode.RTL_1      ~((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL)
+  Row   9:          1  pdp_op7_opcode.RAR_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~pdp_op7_opcode.CML && ~pdp_op7_opcode.RTR && ~(((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL))
+ Row   10:    ***0***  pdp_op7_opcode.RAR_1      ~(((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL)
+ Row   11:          1  pdp_op7_opcode.RTR_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~pdp_op7_opcode.CML && ~((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR))
+ Row   12:    ***0***  pdp_op7_opcode.RTR_1      ~((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR)
+ Row   13:          1  pdp_op7_opcode.CML_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~pdp_op7_opcode.CMA && ~(((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR))
+ Row   14:          1  pdp_op7_opcode.CML_1      ~(((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR)
+ Row   15:          1  pdp_op7_opcode.CMA_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~pdp_op7_opcode.CIA && ~((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML))
+ Row   16:          1  pdp_op7_opcode.CMA_1      ~((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML)
+ Row   17:          1  pdp_op7_opcode.CIA_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~pdp_op7_opcode.CLL && ~(((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA))
+ Row   18:          1  pdp_op7_opcode.CIA_1      ~(((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA)
+ Row   19:          1  pdp_op7_opcode.CLL_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~pdp_op7_opcode.CLA1 && ~((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA))
+ Row   20:          1  pdp_op7_opcode.CLL_1      ~((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA)
+ Row   21:          1  pdp_op7_opcode.CLA1_0     (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~pdp_op7_opcode.CLA_CLL && ~(((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL))
+ Row   22:          1  pdp_op7_opcode.CLA1_1     ~(((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL)
+ Row   23:          1  pdp_op7_opcode.CLA_CLL_0  (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~pdp_op7_opcode.HLT && ~((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1))
+ Row   24:          1  pdp_op7_opcode.CLA_CLL_1  ~((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1)
+ Row   25:          1  pdp_op7_opcode.HLT_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~pdp_op7_opcode.OSR && ~(((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL))
+ Row   26:          1  pdp_op7_opcode.HLT_1      ~(((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL)
+ Row   27:          1  pdp_op7_opcode.OSR_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~pdp_op7_opcode.SKP && ~((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT))
+ Row   28:          1  pdp_op7_opcode.OSR_1      ~((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT)
+ Row   29:          1  pdp_op7_opcode.SKP_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~pdp_op7_opcode.SNL && ~(((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR))
+ Row   30:          1  pdp_op7_opcode.SKP_1      ~(((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR)
+ Row   31:          1  pdp_op7_opcode.SNL_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~pdp_op7_opcode.SZL && ~((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP))
+ Row   32:          1  pdp_op7_opcode.SNL_1      ~((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP)
+ Row   33:          1  pdp_op7_opcode.SZL_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~pdp_op7_opcode.SZA && ~(((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL))
+ Row   34:          1  pdp_op7_opcode.SZL_1      ~(((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL)
+ Row   35:          1  pdp_op7_opcode.SZA_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~pdp_op7_opcode.SNA && ~((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL))
+ Row   36:          1  pdp_op7_opcode.SZA_1      ~((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL)
+ Row   37:          1  pdp_op7_opcode.SNA_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~pdp_op7_opcode.SMA && ~(((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA))
+ Row   38:          1  pdp_op7_opcode.SNA_1      ~(((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA)
+ Row   39:          1  pdp_op7_opcode.SMA_0      (~pdp_op7_opcode.CLA2 && ~pdp_op7_opcode.SPA && ~((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA))
+ Row   40:          1  pdp_op7_opcode.SMA_1      ~((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA)
+ Row   41:          1  pdp_op7_opcode.SPA_0      (~pdp_op7_opcode.CLA2 && ~(((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA) || pdp_op7_opcode.SMA))
+ Row   42:          1  pdp_op7_opcode.SPA_1      ~(((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA) || pdp_op7_opcode.SMA)
+ Row   43:          1  pdp_op7_opcode.CLA2_0     ~((((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA) || pdp_op7_opcode.SMA) || pdp_op7_opcode.SPA)
+ Row   44:          1  pdp_op7_opcode.CLA2_1     ~((((((((((((((((((((pdp_op7_opcode.NOP || pdp_op7_opcode.IAC) || pdp_op7_opcode.RAL) || pdp_op7_opcode.RTL) || pdp_op7_opcode.RAR) || pdp_op7_opcode.RTR) || pdp_op7_opcode.CML) || pdp_op7_opcode.CMA) || pdp_op7_opcode.CIA) || pdp_op7_opcode.CLL) || pdp_op7_opcode.CLA1) || pdp_op7_opcode.CLA_CLL) || pdp_op7_opcode.HLT) || pdp_op7_opcode.OSR) || pdp_op7_opcode.SKP) || pdp_op7_opcode.SNL) || pdp_op7_opcode.SZL) || pdp_op7_opcode.SZA) || pdp_op7_opcode.SNA) || pdp_op7_opcode.SMA) || pdp_op7_opcode.SPA)
+
+
+FSM Coverage:
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    FSMs                                                        80.9
+        States                      17        17         0     100.0
+        Transitions                 42        26        16      61.9
+
+================================FSM Details================================
+
+FSM Coverage for file instr_exec.sv --
+
+FSM_ID: current_state
+    Current State Object : current_state
+    ----------------------
+    State Value MapInfo :
+    ---------------------
+Line          State Name               Value
+----          ----------               -----
+ 139                IDLE                   0
+ 151               STALL                   1
+ 169              BRANCH                   2
+ 329                 NOP                  15
+ 321                 JMP                  14
+ 301          JMS_WR_REQ                  12
+ 288                 DCA                  11
+ 212          MEM_RD_REQ                   5
+ 200             CLA_CLL                   4
+ 191                 CLA                   3
+ 339             UNSTALL                  16
+ 223           DATA_RCVD                   6
+ 265          ISZ_WR_REQ                   9
+ 253         AND_ACC_MEM                   8
+ 242         ADD_ACC_MEM                   7
+ 277         ISZ_UPDT_PC                  10
+ 312         JMS_UPDT_PC                  13
+    Covered States :
+    ----------------
+                   State           Hit_count
+                   -----           ---------
+                    IDLE                  51
+                   STALL              499889
+                  BRANCH                  31
+                     NOP                  16
+                     JMP                   2
+              JMS_WR_REQ                   1
+                     DCA                   2
+              MEM_RD_REQ                   7
+                 CLA_CLL                   3
+                     CLA                   2
+                 UNSTALL                  31
+               DATA_RCVD                   7
+              ISZ_WR_REQ                   1
+             AND_ACC_MEM                   1
+             ADD_ACC_MEM                   5
+             ISZ_UPDT_PC                   1
+             JMS_UPDT_PC                   1
+    Covered Transitions :
+    ---------------------
+Line            Trans_ID           Hit_count          Transition          
+----            --------           ---------          ----------          
+ 143                   0                   1          IDLE -> STALL       
+ 128                   1                  50          IDLE -> IDLE        
+ 161                   2              499857          STALL -> STALL      
+ 156                   3                  31          STALL -> BRANCH     
+ 185                   5                  16          BRANCH -> NOP       
+ 183                   6                   2          BRANCH -> JMP       
+ 181                   7                   1          BRANCH -> JMS_WR_REQ
+ 179                   8                   2          BRANCH -> DCA       
+ 177                   9                   7          BRANCH -> MEM_RD_REQ
+ 175                  10                   3          BRANCH -> CLA_CLL   
+ 331                  12                  16          NOP -> UNSTALL      
+ 324                  14                   2          JMP -> UNSTALL      
+ 306                  16                   1          JMS_WR_REQ -> JMS_UPDT_PC
+ 293                  18                   2          DCA -> CLA          
+ 216                  20                   7          MEM_RD_REQ -> DATA_RCVD
+ 204                  22                   3          CLA_CLL -> UNSTALL  
+ 194                  24                   2          CLA -> UNSTALL      
+ 344                  26                  31          UNSTALL -> STALL    
+ 235                  28                   1          DATA_RCVD -> ISZ_WR_REQ
+ 233                  29                   1          DATA_RCVD -> AND_ACC_MEM
+ 231                  30                   5          DATA_RCVD -> ADD_ACC_MEM
+ 271                  32                   1          ISZ_WR_REQ -> ISZ_UPDT_PC
+ 256                  34                   1          AND_ACC_MEM -> UNSTALL
+ 246                  36                   5          ADD_ACC_MEM -> UNSTALL
+ 280                  38                   1          ISZ_UPDT_PC -> UNSTALL
+ 315                  40                   1          JMS_UPDT_PC -> UNSTALL
+    Uncovered Transitions :
+    -----------------------
+Line            Trans_ID          Transition          
+----            --------          ----------          
+ 128                   4          STALL -> IDLE       
+ 128                  11          BRANCH -> IDLE      
+ 128                  13          NOP -> IDLE         
+ 128                  15          JMP -> IDLE         
+ 128                  17          JMS_WR_REQ -> IDLE  
+ 128                  19          DCA -> IDLE         
+ 128                  21          MEM_RD_REQ -> IDLE  
+ 128                  23          CLA_CLL -> IDLE     
+ 128                  25          CLA -> IDLE         
+ 128                  27          UNSTALL -> IDLE     
+ 128                  31          DATA_RCVD -> IDLE   
+ 128                  33          ISZ_WR_REQ -> IDLE  
+ 128                  35          AND_ACC_MEM -> IDLE 
+ 128                  37          ADD_ACC_MEM -> IDLE 
+ 128                  39          ISZ_UPDT_PC -> IDLE 
+ 128                  41          JMS_UPDT_PC -> IDLE 
+
+
+    Summary                     Active      Hits    Misses % Covered
+    -------                     ------      ----    ------ ---------
+        States                      17        17         0     100.0
+        Transitions                 42        26        16      61.9
+
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /top_level_tb/SB/scenario                         36.3%        100    Uncovered            
+    covered/total bins:                                    16         29                      
+    missing/total bins:                                    13         29                      
+    % Hit:                                              55.1%        100                      
+    Coverpoint scenario::opcodes                         0.0%        100    ZERO                 
+        covered/total bins:                                 0          7                      
+        missing/total bins:                                 7          7                      
+        % Hit:                                           0.0%        100                      
+    Coverpoint scenario::NOP                            72.7%        100    Uncovered            
+        covered/total bins:                                16         22                      
+        missing/total bins:                                 6         22                      
+        % Hit:                                          72.7%        100                      
+ Covergroup instance \/top_level_tb/SB/scenario_inst  
+                                                        36.3%        100    Uncovered            
+    covered/total bins:                                    16         29                      
+    missing/total bins:                                    13         29                      
+    % Hit:                                              55.1%        100                      
+    Coverpoint opcodes                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          7                      
+        missing/total bins:                                 7          7                      
+        % Hit:                                           0.0%        100                      
+        ignore_bin ignore_opcode                            0               ZERO                 
+        bin auto[0]                                         0          1    ZERO                 
+        bin auto[1]                                         0          1    ZERO                 
+        bin auto[2]                                         0          1    ZERO                 
+        bin auto[3]                                         0          1    ZERO                 
+        bin auto[4]                                         0          1    ZERO                 
+        bin auto[5]                                         0          1    ZERO                 
+        bin auto[6]                                         0          1    ZERO                 
+    Coverpoint NOP                                      72.7%        100    Uncovered            
+        covered/total bins:                                16         22                      
+        missing/total bins:                                 6         22                      
+        % Hit:                                          72.7%        100                      
+        bin NOP                                             0          1    ZERO                 
+        bin HLT                                             2          1    Covered              
+        bin CLL                                             1          1    Covered              
+        bin CLA1                                            1          1    Covered              
+        bin CLA_CLL                                         3          1    Covered              
+        bin CLA2                                            1          1    Covered              
+        bin IAC                                             0          1    ZERO                 
+        bin RAL                                             0          1    ZERO                 
+        bin RTL                                             0          1    ZERO                 
+        bin RAR                                             0          1    ZERO                 
+        bin RTR                                             0          1    ZERO                 
+        bin CML                                             1          1    Covered              
+        bin CMA                                             1          1    Covered              
+        bin CIA                                             1          1    Covered              
+        bin OSR                                             1          1    Covered              
+        bin SKP                                             1          1    Covered              
+        bin SNL                                             1          1    Covered              
+        bin SZL                                             1          1    Covered              
+        bin SZA                                             1          1    Covered              
+        bin SNA                                             1          1    Covered              
+        bin SMA                                             1          1    Covered              
+        bin SPA                                             1          1    Covered              
+        default bin other[0]                               12               Occurred             
+ TYPE /top_level_tb/EXE_CHEK/supported_opcodes          87.5%        100    Uncovered            
+    covered/total bins:                                     7          8                      
+    missing/total bins:                                     1          8                      
+    % Hit:                                              87.5%        100                      
+    Coverpoint supported_opcodes::mem_AND              100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::mem_TAD              100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::mem_ISZ              100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::mem_DCA              100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::mem_JMS              100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::mem_JMP              100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::op7_CLA_CLL          100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint supported_opcodes::op7_NOP                0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+ Covergroup instance \/top_level_tb/EXE_CHEK/supported_inst  
+                                                        87.5%        100    Uncovered            
+    covered/total bins:                                     7          8                      
+    missing/total bins:                                     1          8                      
+    % Hit:                                              87.5%        100                      
+    Coverpoint mem_AND                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin AND                                             1          1    Covered              
+    Coverpoint mem_TAD                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin TAD                                             5          1    Covered              
+    Coverpoint mem_ISZ                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin ISZ                                             1          1    Covered              
+    Coverpoint mem_DCA                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin DCA                                             2          1    Covered              
+    Coverpoint mem_JMS                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin JMS                                             1          1    Covered              
+    Coverpoint mem_JMP                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin JMP                                             2          1    Covered              
+    Coverpoint op7_CLA_CLL                             100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin CLA_CLL                                         3          1    Covered              
+    Coverpoint op7_NOP                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+        bin NOP                                             0          1    ZERO                 
+ TYPE /top_level_tb/EXE_CHEK/unsupported_opcodes        73.6%        100    Uncovered            
+    covered/total bins:                                    14         19                      
+    missing/total bins:                                     5         19                      
+    % Hit:                                              73.6%        100                      
+    Coverpoint unsupported_opcodes::op7_IAC              0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+    Coverpoint unsupported_opcodes::op7_RAL              0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+    Coverpoint unsupported_opcodes::op7_RTL              0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+    Coverpoint unsupported_opcodes::op7_RAR              0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+    Coverpoint unsupported_opcodes::op7_RTR              0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+    Coverpoint unsupported_opcodes::op7_CML            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_CMA            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_CLL            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_CLA1           100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_HLT            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_OSR            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SKP            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SNL            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SZL            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SZA            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SNA            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SMA            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_SPA            100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+    Coverpoint unsupported_opcodes::op7_CLA2           100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+ Covergroup instance \/top_level_tb/EXE_CHEK/unsupported_inst  
+                                                        73.6%        100    Uncovered            
+    covered/total bins:                                    14         19                      
+    missing/total bins:                                     5         19                      
+    % Hit:                                              73.6%        100                      
+    Coverpoint op7_IAC                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+        bin IAC                                             0          1    ZERO                 
+    Coverpoint op7_RAL                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+        bin RAL                                             0          1    ZERO                 
+    Coverpoint op7_RTL                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+        bin RTL                                             0          1    ZERO                 
+    Coverpoint op7_RAR                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+        bin RAR                                             0          1    ZERO                 
+    Coverpoint op7_RTR                                   0.0%        100    ZERO                 
+        covered/total bins:                                 0          1                      
+        missing/total bins:                                 1          1                      
+        % Hit:                                           0.0%        100                      
+        bin RTR                                             0          1    ZERO                 
+    Coverpoint op7_CML                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin CML                                             1          1    Covered              
+    Coverpoint op7_CMA                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin CMA                                             1          1    Covered              
+    Coverpoint op7_CLL                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin CLL                                             1          1    Covered              
+    Coverpoint op7_CLA1                                100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin CLA1                                            1          1    Covered              
+    Coverpoint op7_HLT                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin HLT                                             2          1    Covered              
+    Coverpoint op7_OSR                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin OSR                                             1          1    Covered              
+    Coverpoint op7_SKP                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SKP                                             1          1    Covered              
+    Coverpoint op7_SNL                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SNL                                             1          1    Covered              
+    Coverpoint op7_SZL                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SZL                                             1          1    Covered              
+    Coverpoint op7_SZA                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SZA                                             1          1    Covered              
+    Coverpoint op7_SNA                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SNA                                             1          1    Covered              
+    Coverpoint op7_SMA                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SMA                                             1          1    Covered              
+    Coverpoint op7_SPA                                 100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin SPA                                             1          1    Covered              
+    Coverpoint op7_CLA2                                100.0%        100    Covered              
+        covered/total bins:                                 1          1                      
+        missing/total bins:                                 0          1                      
+        % Hit:                                         100.0%        100                      
+        bin CLA2                                            1          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 65.8%  COVERGROUP TYPES: 3
+
+DIRECTIVE COVERAGE:
+---------------------------------------------------------------------------------------------
+Name                                     Design Design   Lang File(Line)      Count Status    
+                                         Unit   UnitType                                      
+---------------------------------------------------------------------------------------------
+/top_level_tb/EXE/F1/C7                  exec_in_check Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(613)
+                                                                                  1 Covered   
+/top_level_tb/EXE/F1/C8                  exec_in_check Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(630)
+                                                                                  5 Covered   
+/top_level_tb/EXE/F1/C11                 exec_in_check Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(648)
+                                                                                  3 Covered   
+/top_level_tb/EXE/F1/C12                 exec_in_check Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(666)
+                                                                                  2 Covered   
+/top_level_tb/EXE/F1/C13                 exec_in_check Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(682)
+                                                                                  2 Covered   
+/top_level_tb/EXE/F1/CC2                 exec_in_check Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(692)
+                                                                                  0 ZERO      
+/top_level_tb/SB/BP                      chip_sb Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/chip_sb.sv(237)
+                                                                                  2 Covered   
+/top_level_tb/SB/BS                      chip_sb Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/chip_sb.sv(246)
+                                                                                  1 Covered   
+/top_level_tb/IFD_CHEK/C1                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(83)
+                                                                                  1 Covered   
+/top_level_tb/IFD_CHEK/C2                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(102)
+                                                                                  1 Covered   
+/top_level_tb/IFD_CHEK/C3                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(120)
+                                                                                111 Covered   
+/top_level_tb/IFD_CHEK/C5                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(176)
+                                                                                 31 Covered   
+/top_level_tb/IFD_CHEK/C6                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(194)
+                                                                                  1 Covered   
+/top_level_tb/IFD_CHEK/C7                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(212)
+                                                                                 31 Covered   
+/top_level_tb/IFD_CHEK/C8                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(230)
+                                                                                 31 Covered   
+/top_level_tb/IFD_CHEK/C9                ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(248)
+                                                                                  1 Covered   
+/top_level_tb/IFD_CHEK/C10               ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(267)
+                                                                                  1 Covered   
+/top_level_tb/IFD_CHEK/C11               ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(284)
+                                                                                 31 Covered   
+/top_level_tb/IFD_CHEK/C12               ifd_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(300)
+                                                                                 31 Covered   
+/top_level_tb/EXE_CHEK/C2                exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(88)
+                                                                                 11 Covered   
+/top_level_tb/EXE_CHEK/C3                exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(105)
+                                                                                 32 Covered   
+/top_level_tb/EXE_CHEK/C4A               exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(123)
+                                                                                  7 Covered   
+/top_level_tb/EXE_CHEK/C4B               exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(141)
+                                                                                  4 Covered   
+/top_level_tb/EXE_CHEK/C10               exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(176)
+                                                                                  0 ZERO      
+/top_level_tb/EXE_CHEK/C20A              exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(203)
+                                                                                  1 Covered   
+/top_level_tb/EXE_CHEK/C20B              exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(220)
+                                                                                  2 Covered   
+/top_level_tb/EXE_CHEK/C20C              exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(236)
+                                                                                  1 Covered   
+/top_level_tb/EXE_CHEK/C20D              exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(253)
+                                                                                  1 Covered   
+/top_level_tb/EXE_CHEK/C20E              exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(269)
+                                                                                  1 Covered   
+/top_level_tb/EXE_CHEK/C20F              exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(287)
+                                                                                  5 Covered   
+/top_level_tb/EXE_CHEK/C16               exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(315)
+                                                                                  1 Covered   
+/top_level_tb/EXE_CHEK/C18               exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(343)
+                                                                                  1 Covered   
+/top_level_tb/EXE_CHEK/CC1               exe_checker Verilog  SVA  N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(490)
+                                                                                  7 Covered   
+
+TOTAL DIRECTIVE COVERAGE: 93.9%  COVERS: 33
+
+ASSERTION RESULTS:
+-------------------------------------------------------
+Name                 File(Line)           Failure Pass 
+                                          Count   Count 
+-------------------------------------------------------
+/top_level_tb/EXE/F1/assert__R13
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(678)       0     1
+/top_level_tb/EXE/F1/assert__R12
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(662)       0     1
+/top_level_tb/EXE/F1/assert__R11
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(644)       0     1
+/top_level_tb/EXE/F1/assert__R8
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(626)       0     1
+/top_level_tb/EXE/F1/assert__R7
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(609)       0     1
+/top_level_tb/SB/assert__0
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/chip_sb.sv(101)       1     0
+/top_level_tb/IFD_CHEK/assert__R12
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(296)       0     1
+/top_level_tb/IFD_CHEK/assert__R11
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(280)       0     1
+/top_level_tb/IFD_CHEK/assert__R10
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(263)       0     1
+/top_level_tb/IFD_CHEK/assert__R9
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(244)       0     1
+/top_level_tb/IFD_CHEK/assert__R8
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(226)       0     1
+/top_level_tb/IFD_CHEK/assert__R7
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(208)       0     1
+/top_level_tb/IFD_CHEK/assert__R6
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(190)       0     1
+/top_level_tb/IFD_CHEK/assert__R5
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(172)       0     1
+/top_level_tb/IFD_CHEK/assert__R3
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(116)       0     1
+/top_level_tb/IFD_CHEK/assert__R2
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(98)       0     1
+/top_level_tb/IFD_CHEK/assert__R1
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/ifd_checker.sv(78)       0     1
+/top_level_tb/EXE_CHEK/assert__R18
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(339)       0     1
+/top_level_tb/EXE_CHEK/assert__R16
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(311)       0     1
+/top_level_tb/EXE_CHEK/assert__R20F
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(283)       0     1
+/top_level_tb/EXE_CHEK/assert__R20E
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(265)       0     1
+/top_level_tb/EXE_CHEK/assert__R20D
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(249)       0     1
+/top_level_tb/EXE_CHEK/assert__R20C
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(232)       0     1
+/top_level_tb/EXE_CHEK/assert__R20B
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(216)       0     1
+/top_level_tb/EXE_CHEK/assert__R20A
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(199)       0     1
+/top_level_tb/EXE_CHEK/assert__R10
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(172)       1     0
+/top_level_tb/EXE_CHEK/assert__R4B
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(137)       0     1
+/top_level_tb/EXE_CHEK/assert__R4A
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(119)       0     1
+/top_level_tb/EXE_CHEK/assert__R3
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(101)       0     1
+/top_level_tb/EXE_CHEK/assert__R2
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(84)       0     1
+/top_level_tb/EXE_CHEK/#ublk#159877778#68/immed__69
+                     N:/My Documents/Questa Sim/Project/Design Collaterals/Questa_Work/Chip level Test/exe_checker.sv(69)       0     1
+
+Total Coverage By File (code coverage only, filtered view): 86.4%
+

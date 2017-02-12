@@ -1,0 +1,24 @@
+Coverage Report Summary Data by file
+
+=================================================================================
+=== File: instr_decode.sv
+=================================================================================
+    Enabled Coverage            Active      Hits    Misses % Covered
+    ----------------            ------      ----    ------ ---------
+    Stmts                           62        61         1      98.3
+    Branches                        51        49         2      96.0
+    FEC Condition Terms              0         0         0     100.0
+    FEC Expression Terms             0         0         0     100.0
+    FSMs                                                        90.6
+        States                       7         7         0     100.0
+        Transitions                 16        13         3      81.2
+
+
+TOTAL COVERGROUP COVERAGE: 100.0%  COVERGROUP TYPES: 2
+
+TOTAL DIRECTIVE COVERAGE: 100.0%  COVERS: 11
+
+TOTAL ASSERTION COVERAGE: 75.0%  ASSERTIONS: 12
+
+Total Coverage By File (code coverage only, filtered view): 95.0%
+
