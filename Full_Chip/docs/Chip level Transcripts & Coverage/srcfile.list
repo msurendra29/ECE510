@@ -1,6 +1,0 @@
-chip_sb.sv
-exe_checker.sv
-ifd_checker.sv
-instr_decode.sv
-instr_exec.sv
-top_level_tb.sv
